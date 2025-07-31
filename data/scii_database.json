@@ -70,7 +70,6 @@
       "diagnostico_bloqueio": "Cegueira (física ou espiritual), falta de perspectiva, teimosia, incapacidade de ver a verdade, fanatismo.",
       "comando_ritualistico": "Ver além da forma, contemplar a essência."
     },
-
     "Vav": {
       "valor_gemátrico": 6,
       "pictograma": "Gancho / Prego",
@@ -526,3 +525,247 @@
     }
   }
 }
+  "arcanos": {
+    "0_O_Louco": {
+      "numero": 0,
+      "nome": "O Louco",
+      "letra_hebraica": "Aleph",
+      "planeta": "Urano",
+      "elemento": "Ar",
+      "simbolo": "O viajante despreocupado com um abismo à frente",
+      "significado": "Novos começos, inocência, risco, liberdade, o espírito puro antes da queda na matéria.",
+      "virtude": "Confiança no desconhecido",
+      "desafio": "Irresponsabilidade, caos, falta de direção"
+    },
+    "1_O_Mago": {
+      "numero": 1,
+      "nome": "O Mago",
+      "letra_hebraica": "Beth",
+      "planeta": "Mercúrio",
+      "elemento": "Fogo",
+      "simbolo": "O mestre dos quatro elementos, com varinha apontando para o céu e terra",
+      "significado": "Manifestação, poder pessoal, habilidade, iniciação, o Verbo feito carne.",
+      "virtude": "Criatividade ativa",
+      "desafio": "Manipulação, charlatanismo"
+    },
+    "2_A_Sacerdotisa": {
+      "numero": 2,
+      "nome": "A Sacerdotisa",
+      "letra_hebraica": "Gimel",
+      "planeta": "Lua",
+      "elemento": "Água",
+      "simbolo": "A guardiã dos mistérios, entre colunas B e J",
+      "significado": "Intuição, sabedoria oculta, inconsciente, mediadora entre mundos.",
+      "virtude": "Silêncio e escuta",
+      "desafio": "Ocultação, mistério excessivo"
+    },
+    "3_A_Imperatriz": {
+      "numero": 3,
+      "nome": "A Imperatriz",
+      "letra_hebraica": "Daleth",
+      "planeta": "Vênus",
+      "elemento": "Água",
+      "simbolo": "A mãe fértil, sentada em um trono com coroa de 12 estrelas",
+      "significado": "Fertilidade, criação, nutrição, abundância, o útero do mundo.",
+      "virtude": "Generosidade",
+      "desafio": "Materialismo, dependência"
+    },
+    "4_O_Imperador": {
+      "numero": 4,
+      "nome": "O Imperador",
+      "letra_hebraica": "He",
+      "planeta": "Áries / Marte",
+      "elemento": "Fogo",
+      "simbolo": "O governante com cetro e coroa, símbolo de estrutura",
+      "significado": "Autoridade, ordem, proteção, estrutura, liderança.",
+      "virtude": "Estabilidade",
+      "desafio": "Tirania, rigidez"
+    },
+    "5_O_Hierofante": {
+      "numero": 5,
+      "nome": "O Hierofante",
+      "letra_hebraica": "Vav",
+      "planeta": "Touro / Vênus",
+      "elemento": "Terra",
+      "simbolo": "O sacerdote abençoando dois fiéis",
+      "significado": "Tradição, ensino espiritual, moral, rituais, conexão com o sagrado institucional.",
+      "virtude": "Sabedoria compartilhada",
+      "desafio": "Dogmatismo, conformismo"
+    },
+    "6_Os_Amantes": {
+      "numero": 6,
+      "nome": "Os Amantes",
+      "letra_hebraica": "Zayin",
+      "planeta": "Gêmeos / Mercúrio",
+      "elemento": "Ar",
+      "simbolo": "Casal nu diante de um anjo, com uma árvore da vida",
+      "significado": "Escolha, aliança, desejo, harmonia ou conflito entre opostos.",
+      "virtude": "Escolha consciente",
+      "desafio": "Indecisão, tentação"
+    },
+    "7_A_Carruagem": {
+      "numero": 7,
+      "nome": "A Carruagem",
+      "letra_hebraica": "Cheth",
+      "planeta": "Câncer / Lua",
+      "elemento": "Água",
+      "simbolo": "Um guerreiro em uma carruagem puxada por esfinges opostas",
+      "significado": "Vontade, controle, triunfo, direção, superação de forças opostas.",
+      "virtude": "Autodomínio",
+      "desafio": "Arrogância, perda de controle"
+    },
+    "8_A_Forca": {
+      "numero": 8,
+      "nome": "A Força",
+      "letra_hebraica": "Teth",
+      "planeta": "Leão / Sol",
+      "elemento": "Fogo",
+      "simbolo": "Mulher acalmando um leão",
+      "significado": "Coragem, domínio interior, paciência, força suave.",
+      "virtude": "Domínio sobre o instinto",
+      "desafio": "Violência, repressão"
+    },
+    "9_O_Eremita": {
+      "numero": 9,
+      "nome": "O Eremita",
+      "letra_hebraica": "Yod",
+      "planeta": "Virgem / Mercúrio",
+      "elemento": "Terra",
+      "simbolo": "Velho com lanterna em um bastão",
+      "significado": "Sabedoria, busca, iluminação interior, orientação.",
+      "virtude": "Busca da verdade",
+      "desafio": "Isolamento, medo de compartilhar"
+    },
+    "10_A_Roda_da_Fortuna": {
+      "numero": 10,
+      "nome": "A Roda da Fortuna",
+      "letra_hebraica": "Kaph",
+      "planeta": "Júpiter",
+      "elemento": "Água",
+      "simbolo": "Roda com criaturas e palavras místicas (TARO)",
+      "significado": "Destino, ciclos, mudança, karma, ascensão e queda.",
+      "virtude": "Aceitação do fluxo",
+      "desafio": "Superstição, passividade"
+    },
+    "11_A_Justica": {
+      "numero": 11,
+      "nome": "A Justiça",
+      "letra_hebraica": "Lamed",
+      "planeta": "Libra / Vênus",
+      "elemento": "Ar",
+      "simbolo": "Figura com balança e espada",
+      "significado": "Equilíbrio, verdade, consequência, justiça kármica.",
+      "virtude": "Retidão",
+      "desafio": "Rigidez, julgamento severo"
+    },
+    "12_O_Enforcado": {
+      "numero": 12,
+      "nome": "O Enforcado",
+      "letra_hebraica": "Mem",
+      "planeta": "Netuno",
+      "elemento": "Água",
+      "simbolo": "Homem pendurado de cabeça para baixo",
+      "significado": "Sacrifício, nova perspectiva, suspensão, entrega.",
+      "virtude": "Entrega consciente",
+      "desafio": "Estagnação, sofrimento inútil"
+    },
+    "13_A_Morte": {
+      "numero": 13,
+      "nome": "A Morte",
+      "letra_hebraica": "Nun",
+      "planeta": "Escorpião / Plutão",
+      "elemento": "Água",
+      "simbolo": "Cavaleiro com foice sobre cadáveres",
+      "significado": "Transformação, fim de ciclo, renascimento, mudança radical.",
+      "virtude": "Aceitação da mudança",
+      "desafio": "Medo, resistência"
+    },
+    "14_A_Temperanca": {
+      "numero": 14,
+      "nome": "A Temperança",
+      "letra_hebraica": "Samekh",
+      "planeta": "Sagitário / Júpiter",
+      "elemento": "Fogo",
+      "simbolo": "Anjo misturando água entre dois cálices",
+      "significado": "Equilíbrio, paciência, alquimia, harmonia entre opostos.",
+      "virtude": "Moderação",
+      "desafio": "Indecisão, mediocridade"
+    },
+    "15_O_Diabo": {
+      "numero": 15,
+      "nome": "O Diabo",
+      "letra_hebraica": "Ayin",
+      "planeta": "Capricórnio / Saturno",
+      "elemento": "Terra",
+      "simbolo": "Demônio com chifres sobre dois prisioneiros acorrentados",
+      "significado": "Tentação, materialismo, vícios, ilusão, escravidão.",
+      "virtude": "Autoconhecimento",
+      "desafio": "Negligência, escravidão"
+    },
+    "16_A_Torre": {
+      "numero": 16,
+      "nome": "A Torre",
+      "letra_hebraica": "Pe",
+      "planeta": "Marte",
+      "elemento": "Fogo",
+      "simbolo": "Torre atingida por raio com pessoas caindo",
+      "significado": "Colapso repentino, revelação, libertação através do caos.",
+      "virtude": "Verdade forçada",
+      "desafio": "Tragédia, destruição"
+    },
+    "17_A_Estrela": {
+      "numero": 17,
+      "nome": "A Estrela",
+      "letra_hebraica": "Tzadi",
+      "planeta": "Aquário / Urano",
+      "elemento": "Água",
+      "simbolo": "Mulher nua derramando água de dois cálices",
+      "significado": "Esperança, inspiração, fé, renovação, guia espiritual.",
+      "virtude": "Fé no futuro",
+      "desafio": "Ilusão, falsa esperança"
+    },
+    "18_A_Lua": {
+      "numero": 18,
+      "nome": "A Lua",
+      "letra_hebraica": "Qoph",
+      "planeta": "Peixes / Netuno",
+      "elemento": "Água",
+      "simbolo": "Lua com rosto, cachorro e lobo uivando, caminho entre águas",
+      "significado": "Ilusão, medo, inconsciente, sonhos, intuição.",
+      "virtude": "Percepção do oculto",
+      "desafio": "Confusão, alucinação"
+    },
+    "19_O_Sol": {
+      "numero": 19,
+      "nome": "O Sol",
+      "letra_hebraica": "Resh",
+      "planeta": "Sol",
+      "elemento": "Fogo",
+      "simbolo": "Sol com rosto, criança sobre um cavalo",
+      "significado": "Alegria, sucesso, clareza, vitalidade, realização.",
+      "virtude": "Alegria plena",
+      "desafio": "Arrogância, excesso de luz"
+    },
+    "20_O_Julgamento": {
+      "numero": 20,
+      "nome": "O Julgamento",
+      "letra_hebraica": "Shin",
+      "planeta": "Plutão",
+      "elemento": "Fogo",
+      "simbolo": "Anjo tocando trombeta, pessoas ressurgindo de túmulos",
+      "significado": "Ressurreição, chamado, julgamento, renascimento espiritual.",
+      "virtude": "Renovação",
+      "desafio": "Culpa, condenação"
+    },
+    "21_O_Mundo": {
+      "numero": 21,
+      "nome": "O Mundo",
+      "letra_hebraica": "Tav",
+      "planeta": "Saturno",
+      "elemento": "Terra",
+      "simbolo": "Figura dançando dentro de uma coroa de louros",
+      "significado": "Conclusão, realização, integração, viagem completa.",
+      "virtude": "Completude",
+      "desafio": "Fim de ciclo, espera pelo novo"
+    }
+  }
