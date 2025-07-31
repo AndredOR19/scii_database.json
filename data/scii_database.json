@@ -769,3 +769,50 @@
       "desafio": "Fim de ciclo, espera pelo novo"
     }
   }
+# Expandir os dados para todas as 22 letras com campos adicionais padronizados
+
+letras_originais = [
+    {"Letra": "Aleph", "valor": 1, "polaridade": "neutra", "frase": "Eu sou a respiração que dá início ao mundo.", "psico": "Impulso criativo, iniciativa consciente", "sigilo": "A1-RPA-12"},
+    {"Letra": "Beth", "valor": 2, "polaridade": "passiva", "frase": "Eu contenho o Verbo e o torno mundo.", "psico": "Foco, interiorização, delimitação", "sigilo": "B2-BOC-13"},
+    {"Letra": "Gimel", "valor": 3, "polaridade": "ativa", "frase": "Eu caminho entre os mundos, levando o fluxo da vida.", "psico": "Mobilidade, adaptação, fluxo emocional", "sigilo": "G3-PES-16"},
+    {"Letra": "Daleth", "valor": 4, "polaridade": "passiva", "frase": "Eu sou a porta por onde nasce a Criação.", "psico": "Nutrição, acolhimento, materialização", "sigilo": "D4-UTR-23"},
+    {"Letra": "He", "valor": 5, "polaridade": "ativa", "frase": "Eu vejo através do véu e revelo a essência.", "psico": "Percepção, contemplação, clareza", "sigilo": "H5-OLH-26"},
+    {"Letra": "Vav", "valor": 6, "polaridade": "neutra", "frase": "Eu uno o Céu e a Terra com o prego do Verbo.", "psico": "Conexão, escuta, aliança", "sigilo": "V6-CLN-24"},
+    {"Letra": "Zayin", "valor": 7, "polaridade": "ativa", "frase": "Eu corto as ilusões com a espada do discernimento.", "psico": "Decisão, foco, clareza", "sigilo": "Z7-MSC-36"},
+    {"Letra": "Cheth", "valor": 8, "polaridade": "passiva", "frase": "Eu protejo o que é sagrado com minha cerca luminosa.", "psico": "Proteção, contenção, interiorização", "sigilo": "CH8-CXT-35"},
+    {"Letra": "Teth", "valor": 9, "polaridade": "ativa", "frase": "Eu domo a serpente do instinto com sabedoria.", "psico": "Força vital, transformação, domínio", "sigilo": "T9-INT-45"},
+    {"Letra": "Yod", "valor": 10, "polaridade": "ativa", "frase": "Eu sou a semente divina plantada na ação.", "psico": "Concretização, precisão, habilidade", "sigilo": "Y10-MND-46"},
+    {"Letra": "Kaph", "valor": 20, "polaridade": "passiva", "frase": "Eu recebo o ciclo e o abençoo com minha palma.", "psico": "Abertura, generosidade, ciclos", "sigilo": "K20-PAL-47"},
+    {"Letra": "Lamed", "valor": 30, "polaridade": "ativa", "frase": "Eu ensino com o cajado da verdade.", "psico": "Direção, orientação, liderança", "sigilo": "L30-VSB-56"},
+    {"Letra": "Mem", "valor": 40, "polaridade": "passiva", "frase": "Eu sou o mar da alma e o silêncio que nutre.", "psico": "Emoções profundas, intuição, inconsciente", "sigilo": "M40-AGU-58"},
+    {"Letra": "Nun", "valor": 50, "polaridade": "passiva", "frase": "Eu sou o ciclo oculto que transforma e renasce.", "psico": "Mudança, instinto, morte e vida", "sigilo": "N50-DNA-59"},
+    {"Letra": "Samekh", "valor": 60, "polaridade": "neutra", "frase": "Eu sou o suporte da alma e a espinha da fé.", "psico": "Confiança, estrutura, perseverança", "sigilo": "S60-ESC-67"},
+    {"Letra": "Ayin", "valor": 70, "polaridade": "passiva", "frase": "Eu vejo o oculto por trás das aparências.", "psico": "Introspecção, revelação, discernimento", "sigilo": "A70-OCU-74"},
+    {"Letra": "Pe", "valor": 80, "polaridade": "ativa", "frase": "Eu falo a verdade que quebra as torres falsas.", "psico": "Expressão, comunicação, impacto", "sigilo": "P80-BOC-79"},
+    {"Letra": "Tzadi", "valor": 90, "polaridade": "neutra", "frase": "Eu pesco no inconsciente a estrela da esperança.", "psico": "Esperança, meditação, humildade", "sigilo": "TZ90-ESP-83"},
+    {"Letra": "Qoph", "valor": 100, "polaridade": "passiva", "frase": "Eu navego a noite da alma com intuição profunda.", "psico": "Sonhos, medos, mistério", "sigilo": "Q100-NUC-92"},
+    {"Letra": "Resh", "valor": 200, "polaridade": "ativa", "frase": "Eu ilumino a mente com o Sol da Consciência.", "psico": "Clareza, liderança, razão", "sigilo": "R200-CAB-95"},
+    {"Letra": "Shin", "valor": 300, "polaridade": "ativa", "frase": "Eu sou o fogo que julga e purifica.", "psico": "Transformação, julgamento, paixão", "sigilo": "SH300-FGO-96"},
+    {"Letra": "Tav", "valor": 400, "polaridade": "neutra", "frase": "Eu selo a Obra com o corpo do mundo.", "psico": "Síntese, realização, encarnação", "sigilo": "T400-MTR-99"}
+]
+
+# Transformar em dicionário estilo JSON
+letras_dict = {
+    item["Letra"]: {
+        "valor_gemátrico": item["valor"],
+        "polaridade": item["polaridade"],
+        "frase_poder": item["frase"],
+        "funcao_psicologica": item["psico"],
+        "sigilo_ascii": item["sigilo"]
+    }
+    for item in letras_originais
+}
+
+# Salvar como JSON
+json_output = json.dumps(letras_dict, ensure_ascii=False, indent=2)
+
+# Salvar localmente para exportação
+with open("/mnt/data/letras_expandido_scii.json", "w", encoding="utf-8") as f:
+    f.write(json_output)
+
+"/mnt/data/letras_expandido_scii.json"
